@@ -13,6 +13,9 @@
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+        <link rel="stylesheet" href="public/build/assets/app-01aa1a5c.css">
+        <script src='public/build/assets/app-d73c19e5.js'></script>
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">

@@ -4,12 +4,14 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class CardSearchController extends Controller
 {
     //
-    pubric function add()
+    public function test()
     {
-        return view('admin.card_search.create')
+        $users = User::all();
+        return view('test', compact('users'));
     }
 }
